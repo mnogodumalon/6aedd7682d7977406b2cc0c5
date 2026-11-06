@@ -1,0 +1,30 @@
+{
+  "VeranstaltungenDialog.tsx": {
+    "titel": "z. B. Denkraum Auftaktabend",
+    "termin": "Wann findet es statt?",
+    "ort": "z. B. Berlin, Salon Mitte",
+    "beschreibung": "Worum geht es bei der Veranstaltung?"
+  },
+  "InteraktionenDialog.tsx": {
+    "veranstaltung": "Welche Veranstaltung?",
+    "reihenfolge": "z. B. 1",
+    "frage": "Welche Frage wird gestellt?",
+    "erlaeuterung": "Hintergrund zur Frage",
+    "vorprompt": "Anweisung vor der Frage",
+    "endprompt": "Anweisung nach der Frage",
+    "zusammenfassung": "Zusammenfassung der Antworten",
+    "ki_antwort": "Antwort der KI"
+  },
+  "FeedbacksDialog.tsx": {
+    "interaktion": "Welche Interaktion?",
+    "kuerzel": "z. B. MK",
+    "sendekennung": "z. B. SK-2026-001",
+    "feedbacktext": "Was möchtest du rückmelden?"
+  },
+  "AbschlussbewertungenDialog.tsx": {
+    "veranstaltung": "Welche Veranstaltung?",
+    "kuerzel": "z. B. MK-42",
+    "kommentar": "Was hat gefallen oder gefehlt?",
+    "email": "z. B. name@beispiel.de"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "en": {
+      "Ablauf": "Flow",
+      "Abschlussbewertungen": "Final ratings",
+      "Aktiv": "Active",
+      "Aktiv setzen": "Set active",
+      "Aktive Interaktion": "Active interaction",
+      "Alles erfasst — keine Zusammenfassung wartet auf eine KI-Antwort.": "All recorded — no summary is waiting for an AI response.",
+      "Antwort der KI offen": "AI response pending",
+      "Bei {0} ist noch keine Interaktion aktiv — wähle unten den nächsten Schritt.": "No interaction is active at {0} yet — choose the next step below.",
+      "Eintragen": "Enter",
+      "Erste Veranstaltung anlegen": "Create first event",
+      "Gerade aktiv: „{0}“ bei {1} — {2}.": "Currently active: \"{0}\" at {1} — {2}.",
+      "Hier moderierst du: Veranstaltung anlegen, Interaktionen in Reihenfolge vorbereiten, Schritt aktivieren und den QR-Code zeigen.": "This is where you moderate: create an event, prepare interactions in order, activate a step and show the QR code.",
+      "KI-Antwort eintragen": "Enter AI response",
+      "KI-Antwort erfasst": "AI response recorded",
+      "KI-Antwort ändern": "Edit AI response",
+      "Keine": "None",
+      "Lege deine erste Veranstaltung an, dann kannst du loslegen.": "Create your first event, then you can get started.",
+      "Neue Interaktion": "New interaction",
+      "Neue Veranstaltung": "New event",
+      "Noch keine Feedbacks eingegangen.": "No feedback received yet.",
+      "Noch keine Interaktionen — lege den ersten Schritt an.": "No interactions yet — create the first step.",
+      "Noch offen": "Still open",
+      "Nur Schritte mit Feedback": "Only steps with feedback",
+      "QR-Code zeigen": "Show QR code",
+      "Setze einen Schritt aktiv": "Set a step active",
+      "Sterne": "Stars",
+      "Tippen: nur Schritte mit Feedback": "Tap: only steps with feedback",
+      "Wartet": "Waiting",
+      "Zusammenfassen": "Summarize",
+      "Zusammenfassung liegt vor": "Summary available",
+      "{0} hat noch keine Interaktionen — bereite den Ablauf vor.": "{0} has no interactions yet — prepare the flow.",
+      "Ø Bewertung": "Ø Rating",
+      "„{0}“ ist jetzt aktiv": "\"{0}\" is now active"
+    }
+  },
+  "v": 1
+}
