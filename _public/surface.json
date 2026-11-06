@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "feedback",
+      "component": "Feedback",
+      "title": "Feedback",
+      "endpoints": [
+        {
+          "entity": "interaktionen",
+          "op": "list",
+          "fields": [
+            "frage",
+            "erlaeuterung",
+            "aktiv"
+          ],
+          "scope": "r.v_aktiv == True",
+          "scope_description": "zeigt nur die Interaktion, bei der aktiv = ja ist",
+          "max_records": 20
+        },
+        {
+          "entity": "feedbacks",
+          "op": "create",
+          "fields": [
+            "interaktion",
+            "kuerzel",
+            "sendekennung",
+            "feedbacktext"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "abschlussbewertung",
+      "component": "Abschlussbewertung",
+      "title": "Abschlussbewertung",
+      "link_param": {
+        "name": "veranstaltung",
+        "entity": "veranstaltungen",
+        "label_field": "titel"
+      },
+      "endpoints": [
+        {
+          "entity": "veranstaltungen",
+          "op": "list",
+          "fields": [
+            "titel",
+            "termin",
+            "ort"
+          ],
+          "max_records": 500
+        },
+        {
+          "entity": "abschlussbewertungen",
+          "op": "create",
+          "fields": [
+            "veranstaltung",
+            "kuerzel",
+            "sterne",
+            "kommentar",
+            "email",
+            "einwilligung"
+          ]
+        }
+      ]
+    }
+  ]
+}
